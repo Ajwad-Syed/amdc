@@ -308,7 +308,7 @@
         <div class="col-md-5 col-md-offset-2">
           <h3>Get In Touch!</h3>
           <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. For more information on how to do this please visit the Docs!-->
-          <form class="dark-form" method="POST" data-netlify="true">
+          <form class="dark-form" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls">
                 <label for="name" class="sr-only control-label">You Name</label>
@@ -342,6 +342,7 @@
               </div>
             </div>
             <div id="success"></div>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-lg btn-dark">Send</button>
           </form>
         </div>
